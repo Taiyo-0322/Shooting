@@ -1,0 +1,9 @@
+﻿  shooting_data.cpp
+C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\shooting_data.cpp(26,16): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\shooting_data.cpp(217,22): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\shooting_data.cpp(262,22): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\shooting_data.cpp(303,17): warning C4244: '+=': 'double' から 'int' への変換です。データが失われる可能性があります。
+  shooting_main.cpp
+C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\shooting_main.cpp(85,18): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+  コードを生成中...
+  VisualStudio_2022用.vcxproj -> C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\VisualStudio_2022用.exe

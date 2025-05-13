@@ -1,0 +1,1046 @@
+﻿0:ＤＸライブラリの初期化処理開始
+0:	システムの情報を出力します
+0:		ＤＸライブラリ Ver3.24d
+0:		論理プロセッサの数 : 22
+0:		ＯＳ  Windows11 ( Build 26100  )
+101:		現時点のＣＰＵ動作速度：大体2.97GHz
+101:		ＭＭＸ命令を使用します
+101:		ＳＳＥ命令が使用可能です
+101:		ＳＳＥ２命令が使用可能です
+102:		ＣＰＵベンダ：GenuineIntel
+103:		ＣＰＵ名：Intel(R) Core(TM) Ultra 7 155H
+103:	ＣＯＭの初期化... 成功
+105:	非同期読み込み処理の初期化...成功
+106:	ファイルアクセス処理の初期化...成功
+106:	メモリ総量:15813.99MB  空きメモリ領域:4272.93MB 
+106:	ディスプレイ情報のセットアップ開始
+109:		モニターの数：1  ディスプレイデバイスの数：4
+109:		No.0  モニター名：\\.\DISPLAY1　1920x1200　32bit　60Hz  120x120dpi
+112:	ディスプレイ情報のセットアップ完了
+112:	タイマーの精度を検査します
+112:	精度結果 更新回数 マルチメディアタイマー：0  パフォーマンスカウンター：60
+112:	 パフォーマンスカウンターを使用します タイマー精度 : 10000.000000 KHz 
+112:	 
+112:	ソフトの二重起動検査... 二重起動はされていませんでした
+112:	ウインドウクラスを登録します... 登録に成功しました
+113:	フルスクリーンモード用のウインドウを作成します
+114:	ウインドウの作成に成功しました
+116:	ウインドウを表示します
+144:	ＩＭＥを無効にしました
+147:	ウインドウスタイルをフルスクリーンモード用に変更します... 完了
+169:	XInput DLL の読み込み中... 成功
+170:	DirectInput関係初期化処理
+170:		DirectInput8 の取得を試みます...成功
+180:			引き続き初期化処理... 初期化成功
+182:		ジョイパッドの初期化... 
+182:			XInput 対応コントローラーのチェックを開始します
+182:				XInput 対応コントローラー No.0 をチェック
+182:				XInput 対応コントローラー No.0 の接続は確認できませんでした
+182:				XInput 対応コントローラー No.1 をチェック
+183:				XInput 対応コントローラー No.1 の接続は確認できませんでした
+183:				XInput 対応コントローラー No.2 をチェック
+183:				XInput 対応コントローラー No.2 の接続は確認できませんでした
+183:				XInput 対応コントローラー No.3 をチェック
+183:				XInput 対応コントローラー No.3 の接続は確認できませんでした
+183:			XInput 対応コントローラーのチェック完了
+184:			DirectInput 対応ジョイパッドの列挙を開始します
+200:			DirectInput 対応ジョイパッドの列挙終了
+201:		ジョイパッドの初期化は正常に終了しました
+201:		マウスデバイスの初期化... 初期化成功
+201:		キーボードデバイスの初期化... 初期化成功
+205:	DirectInput 関連の初期化は正常に終了しました
+207:	WASAPI の初期化を行います
+210:		デバイス名 : スピーカー (Realtek(R) Audio)
+367:		デフォルト遅延時間 : 10.000 ms
+367:		最小遅延時間       : 3.000 ms
+368:		遅延時間           : 10.000 ms
+368:		チャンネル数  　   : 2 ch
+368:		量子化ビット深度   : 32 bit
+369:		有効ビット深度　   : 32 bit
+369:		サンプリングレート : 48000 Hz
+369:		データ形式         : 浮動小数点型
+434:		動作モード         : 共有モード
+434:	WASAPI の初期化は正常に終了しました
+438:	d3d11.dll の読み込み.... 成功
+442:	dxgi.dll の読み込み.... 成功
+442:	API CreateDXGIFactory2 のアドレスを取得します.... 成功
+442:	IDXGIFactory2 を作成します.... 成功
+445:	API CreateDXGIFactory6 のアドレスを取得します.... 成功
+445:	IDXGIAdapter を列挙
+445:		Adapter No.0 Desc:Intel(R) Arc(TM) Graphics  VRAM:128MB
+446:			Output Device No.0 Name:\\.\DISPLAY1 ( 0, 0 )-( 1920, 1200 )
+446:		Adapter No.1 Desc:Microsoft Basic Render Driver  VRAM:0MB
+446:	API D3D11CreateDevice のアドレスを取得します.... 成功
+446:	IDXGIAdapter を取得します.... 成功
+447:	IDXGIAdapter1 を取得します.... 成功
+447:	IDXGIAdapter2 を取得します.... 成功
+447:	IDXGIAdapter3 を取得します.... 成功
+447:	IDXGIAdapter4 を取得します.... 成功
+447:	Direct3D 11 FeatureLevel 11_0 以上を対象とします
+447:	ID3D11Device オブジェクトを取得します.... 成功
+512:	IDXGIDevice1 を取得します.... 成功
+513:	IDXGIDevice1->SetMaximunFrameLatency( 1 ); を実行しました
+513:	[ウインドウモード 5000x3500 ( 0, 0 )-( 1920, 1200 )]
+513:	IDXGISwapChain2 を作成します.... 成功
+514:	IDXGIFactory2->CreateSwapChainForHwnd の戻り値：0x00000000
+514:	IDXGIOutput を取得します.... 成功
+515:	Graphics Device:Intel(R) Arc(TM) Graphics
+515:	画面のフォーマットは DXGI_FORMAT_R8G8B8A8_UNORM です
+516:	16bit Zバッファフォーマットは DXGI_FORMAT_D16_UNORM です
+516:	24bit Zバッファフォーマットは DXGI_FORMAT_D24_UNORM_S8_UINT です
+516:	32bit Zバッファフォーマットは DXGI_FORMAT_D32_FLOAT です
+516:	16bit カラーフォーマットは DXGI_FORMAT_B5G6R5_UNORM です
+516:	32bit カラーフォーマットは DXGI_FORMAT_B8G8R8X8_UNORM です
+516:	アルファ付き 16bit カラーフォーマットは DXGI_FORMAT_B4G4R4A4_UNORM です
+516:	アルファ付き 32bit カラーフォーマットは DXGI_FORMAT_R8G8B8A8_UNORM です
+517:	アルファテスト用 16bit カラーフォーマットは DXGI_FORMAT_B5G5R5A1_UNORM です
+517:	アルファテスト用 32bit カラーフォーマットは DXGI_FORMAT_R8G8B8A8_UNORM です
+517:	ＤＸＴ１テクスチャフォーマットは DXGI_FORMAT_BC1_UNORM です
+517:	ＤＸＴ２テクスチャフォーマットは使えません
+517:	ＤＸＴ３テクスチャフォーマットは DXGI_FORMAT_BC2_UNORM です
+517:	ＤＸＴ４テクスチャフォーマットは使えません
+517:	ＤＸＴ５テクスチャフォーマットは DXGI_FORMAT_BC3_UNORM です
+517:	BC7_UNORM テクスチャフォーマットは DXGI_FORMAT_BC7_UNORM です
+517:	BC7_UNORM_SRGB テクスチャフォーマットは DXGI_FORMAT_BC7_UNORM_SRGB です
+517:	ABGR 整数 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16B16A16_UNORM です
+517:	ABGR 浮動小数点 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16B16A16_FLOAT です
+518:	ABGR 浮動小数点 32 ビット型カラーフォーマットは DXGI_FORMAT_R32G32B32A32_FLOAT です
+518:	１チャンネル整数 8 ビット型カラーフォーマットは DXGI_FORMAT_R8_UNORM です
+518:	１チャンネル整数 16 ビット型カラーフォーマットは DXGI_FORMAT_R16_UNORM です
+518:	１チャンネル浮動小数点 16 ビット型カラーフォーマットは DXGI_FORMAT_R16_FLOAT です
+518:	１チャンネル浮動小数点 32 ビット型カラーフォーマットは DXGI_FORMAT_R32_FLOAT です
+518:	２チャンネル整数 8 ビット型カラーフォーマットは DXGI_FORMAT_R8G8_UNORM です
+518:	２チャンネル整数 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16_UNORM です
+519:	２チャンネル浮動小数点 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16_FLOAT です
+519:	２チャンネル浮動小数点 32 ビット型カラーフォーマットは DXGI_FORMAT_R32G32_FLOAT です
+519:	描画用 16bit カラーフォーマットは DXGI_FORMAT_B5G6R5_UNORM です
+519:	描画用 32bit カラーフォーマットは DXGI_FORMAT_B8G8R8X8_UNORM です
+519:	描画用アルファ付き 32bit カラーフォーマットは DXGI_FORMAT_R8G8B8A8_UNORM です
+519:	描画用 ABGR 整数 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16B16A16_UNORM です
+519:	描画用 ABGR 浮動小数点 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16B16A16_FLOAT です
+520:	描画用 ABGR 浮動小数点 32 ビット型カラーフォーマットは DXGI_FORMAT_R32G32B32A32_FLOAT です
+520:	描画用１チャンネル整数 8 ビット型カラーフォーマットは DXGI_FORMAT_R8_UNORM です
+520:	描画用１チャンネル整数 16 ビット型カラーフォーマットは DXGI_FORMAT_R16_UNORM です
+520:	描画用１チャンネル浮動小数点 16 ビット型カラーフォーマットは DXGI_FORMAT_R16_FLOAT です
+520:	描画用１チャンネル浮動小数点 32 ビット型カラーフォーマットは DXGI_FORMAT_R32_FLOAT です
+520:	描画用２チャンネル整数 8 ビット型カラーフォーマットは DXGI_FORMAT_R8G8_UNORM です
+520:	描画用２チャンネル整数 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16_UNORM です
+520:	描画用２チャンネル浮動小数点 16 ビット型カラーフォーマットは DXGI_FORMAT_R16G16_FLOAT です
+521:	描画用２チャンネル浮動小数点 32 ビット型カラーフォーマットは DXGI_FORMAT_R32G32_FLOAT です
+521:	使用する機能レベル:D3D_FEATURE_LEVEL_11_1
+521:	同時にレンダリングできるバッファの数:8
+521:	最大テクスチャサイズ　幅:16384 高さ:16384
+521:	標準描画用の頂点バッファの作成.... 成功
+522:	シェーダーコード関係の初期化.... 成功
+544:	各種シェーダー用定数バッファの作成.... 成功
+544:	各種 ID3D11InputLayout の作成.... 成功
+556:	画像の単純転送処理の初期化... 成功
+556:	深度バッファを作成します.... 成功
+558:	フォントの初期化を行います
+563:	フォントの初期化は正常に終了しました
+674:	文字コードバッファの初期化を行います... 完了しました
+694:ＤＸライブラリの初期化処理終了
+1387:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\Dabi.png がありません
+1387:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\Enzi.png がありません
+1392:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1393:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1394:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1397:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1398:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1409:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1410:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1426:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1427:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1443:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1444:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1459:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1460:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1477:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1478:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1493:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1494:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1511:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1512:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1527:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1528:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1543:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1543:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1559:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1560:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1576:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1576:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1592:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1593:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1609:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1610:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1626:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1626:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1643:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1644:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1659:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1661:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1676:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1676:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1693:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1694:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1709:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1709:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1726:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1727:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1742:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1743:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1759:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1759:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1776:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1777:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1793:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1794:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1809:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1810:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1826:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1826:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1843:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1844:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1859:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1860:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1875:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1876:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1892:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1893:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1909:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1910:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1926:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1927:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1943:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1944:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1959:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1960:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1976:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1978:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1992:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+1992:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2009:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2010:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2026:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2026:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2043:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2044:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2059:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2060:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2076:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2077:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2093:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2094:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2109:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2110:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2125:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2126:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2142:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2143:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2158:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2159:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2176:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2177:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2192:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2192:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2209:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2210:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2225:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2225:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2242:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2243:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2259:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2260:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2276:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2277:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2292:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2293:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2309:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2309:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2325:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2325:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2341:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2342:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2358:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2359:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2376:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2377:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2392:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2392:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2408:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2409:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2425:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2427:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2443:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2443:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2458:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2459:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2476:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2476:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2492:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2492:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2508:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2509:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2526:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2527:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2542:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2544:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2558:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2559:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2576:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2576:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2592:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2593:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2608:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2609:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2626:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2627:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2643:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2643:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2659:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2659:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2676:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2676:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2693:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2693:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2710:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2711:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2726:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2726:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2741:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2742:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2759:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2759:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2776:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2776:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2792:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2793:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2809:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2809:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2825:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2826:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2842:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2843:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2859:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2860:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2875:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2876:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2893:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2894:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2910:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2910:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2926:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2926:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2944:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2944:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2961:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2962:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2975:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2977:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2992:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+2993:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3009:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3010:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3026:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3027:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3043:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3044:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3059:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3059:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3076:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3076:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3093:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3093:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3109:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3110:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3126:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3127:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3142:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3143:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3158:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3159:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3176:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3176:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3191:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3192:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3209:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3210:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3225:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3226:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3242:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3243:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3259:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3259:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3276:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3276:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3292:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3292:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3309:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3310:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3325:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3326:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3342:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3342:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3359:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3359:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3375:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3376:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3391:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3392:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3410:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3411:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3426:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3427:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3442:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3442:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3458:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3459:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3476:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3477:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3492:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3492:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3508:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3509:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3525:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3526:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3541:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3542:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3559:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3560:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3576:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3576:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3592:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3593:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3608:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3609:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3625:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3625:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3642:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3642:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3659:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3659:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3675:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3676:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3692:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3692:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3709:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3709:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3726:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3726:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3741:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3742:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3761:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3762:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3776:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3777:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3793:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3795:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3808:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3809:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3826:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3827:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3843:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3844:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3858:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3859:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3876:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3877:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3892:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3893:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3909:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3909:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3926:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3927:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3943:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3943:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3959:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3960:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3975:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3976:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3992:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+3993:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4008:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4009:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4026:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4026:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4042:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4044:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4059:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4059:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4076:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4077:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4092:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4092:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4109:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4109:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4126:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4126:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4142:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4143:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4158:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4159:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4176:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4177:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4192:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4192:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4209:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4209:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4226:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4227:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4242:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4243:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4258:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4261:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4276:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4278:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4293:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4294:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4309:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4309:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4326:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4327:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4342:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4343:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4359:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4360:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4375:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4376:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4392:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4393:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4409:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4409:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4425:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4426:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4442:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4443:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4458:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4459:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4475:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4477:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4492:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4493:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4509:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4510:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4526:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4527:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4543:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4543:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4559:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4560:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4576:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4576:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4592:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4593:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4609:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4609:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4625:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4626:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4642:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4643:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4658:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4659:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4675:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4676:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4693:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4693:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4709:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4710:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4725:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4726:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4742:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4742:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4758:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4759:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4775:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4776:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4792:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4792:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4808:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4809:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4825:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4826:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4841:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4842:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4858:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4859:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4875:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4875:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4893:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4893:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4909:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4910:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4926:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4926:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4942:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4944:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4959:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4960:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4976:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4976:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4992:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+4992:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5009:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5010:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5026:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5026:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5042:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5043:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5059:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5059:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5074:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5075:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5091:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5092:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5109:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5110:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5126:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5128:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5142:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5143:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5159:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5159:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5176:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5176:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5192:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5193:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5209:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5210:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5225:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5225:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5241:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5242:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5259:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5260:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5277:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5279:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5293:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5293:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5309:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5310:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5326:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5327:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5343:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5343:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5359:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5360:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5376:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5376:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5392:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5392:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5409:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5409:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5425:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5426:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5442:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5442:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5458:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5459:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5475:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5476:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5493:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5493:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5509:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5509:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5525:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5526:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5542:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5542:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5558:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5559:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5575:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5575:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5593:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5594:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5609:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5610:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5625:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5626:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5643:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5644:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5658:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5659:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5675:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5676:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5692:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5693:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5708:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5709:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5725:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5725:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5742:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5742:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5759:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5759:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5776:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5777:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5791:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5792:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5808:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5809:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5826:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5827:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5842:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5842:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5859:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5859:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5876:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5876:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5892:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5893:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5909:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5910:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5925:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5926:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5943:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5944:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5959:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5960:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5976:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5977:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5992:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+5993:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6009:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6009:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6026:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6026:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6042:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6042:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6059:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6059:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6076:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6078:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6093:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6094:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6110:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6111:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6127:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6127:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6143:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6144:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6159:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6159:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6175:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6176:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6192:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6193:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6210:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6210:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6227:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6228:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6243:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6244:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6258:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6259:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6276:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6276:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6294:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6295:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6309:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6309:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6325:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6326:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6342:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6342:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6359:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6360:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6376:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6376:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6392:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6393:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6410:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6411:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6426:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6426:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6442:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6442:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6461:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6462:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6477:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6478:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6493:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6494:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6510:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6511:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6526:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6527:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6543:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6543:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6559:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6560:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6576:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6577:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6593:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6593:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6610:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6611:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6625:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6626:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6643:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6643:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6660:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6661:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6676:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6677:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6693:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6693:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6709:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6710:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6726:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6726:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6743:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6743:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6759:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6759:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6776:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6777:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6793:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6794:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6809:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6810:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6827:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6828:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6842:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6843:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6859:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6859:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6876:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6876:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6892:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6893:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6909:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6910:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6926:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6927:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6942:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6943:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6959:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6960:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6976:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6978:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6992:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+6993:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7010:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7010:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7026:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7026:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7044:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7045:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7060:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7060:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7076:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7077:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7093:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7093:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7110:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7110:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7125:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7126:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7142:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7143:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7160:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7160:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7177:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7177:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7193:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7193:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7210:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7210:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7228:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7229:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7242:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7243:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7259:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7260:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7275:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7276:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7293:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7294:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7311:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7312:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7327:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7328:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7342:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7343:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7361:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7361:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7377:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7378:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7392:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7393:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7409:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7410:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7427:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7427:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7443:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7444:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7459:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7460:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7476:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7477:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7494:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7494:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7510:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7511:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7526:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7528:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7542:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7543:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7559:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7560:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7576:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7577:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7593:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7594:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7610:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7610:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7627:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7627:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7644:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7644:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7661:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7662:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7676:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7678:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7693:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7694:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7710:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7712:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7728:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7729:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7744:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7745:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7759:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7760:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7776:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7776:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7793:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7793:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7811:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7813:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7826:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7828:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7843:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7843:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7859:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7860:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7875:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7876:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7894:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7895:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7909:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7910:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7928:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7928:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7942:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7943:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7961:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7961:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7977:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7978:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7993:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+7994:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8010:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8010:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8026:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8028:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8043:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8043:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8059:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8060:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8076:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8076:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8094:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8094:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8109:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8110:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8126:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8127:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8142:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8143:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8159:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8160:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8176:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8178:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8192:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8193:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8211:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8211:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8226:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8226:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8242:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8243:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8259:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8260:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8277:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8278:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8295:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8296:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8310:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8311:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8326:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8326:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8343:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8343:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8361:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8362:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8377:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8377:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8393:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8394:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8410:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8410:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8428:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8429:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8443:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8443:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8459:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8460:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8476:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8478:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8494:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8494:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8511:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8512:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8527:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8528:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8542:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8543:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8559:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8560:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8577:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8578:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8592:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8593:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8610:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8610:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8626:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8626:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8643:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8643:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8659:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8660:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8676:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8677:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8694:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8695:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8710:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+8710:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+12155:ウインドウを閉じようとしています
+12156:ウインドウが破棄されようとしています
+12158:ソフトを終了する準備が整いました
+12169:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+12171:画像ファイル C:\Users\sol56\OneDrive\デスクトップ\DxLib_VC3_24d\DxLib_VC\サンプルプログラム実行用フォルダ\x64\Debug\enemy.png がありません
+12179:フォントの初期化を行います
+12179:フォントの初期化は正常に終了しました
+12254:d3d11.dll の解放 1
+12254:dxgi.dll の解放 1
+12255:Direct3D11 のオブジェクト数を出力
+12255:Direct3D11 のオブジェクト合計数 : 0
+12256:DirectInput 関連の終了処理... 完了
+12260:サウンド関連の終了処理... 完了
+12267:ウィンドウ関連の終了処理... 完了
+12330:ＣＯＭを終了... 完了
+12330:
+12331:Alloc memory dump
+12331:	Total size:0(0.000kb)  Alloc num:0
+12331:

@@ -4,7 +4,6 @@
 #include <cmath>
 #include "DxLib.h"
 
-// RAII=絶対に呼び出したい処理を、デストラクタというC++特有の機能を使って呼び出す技術
 class DxLibInitializer {
 public:
 	DxLibInitializer() {
@@ -64,7 +63,7 @@ private:
 	static constexpr int MAX_SHOT = 4;
 	static constexpr int MAX_ENEMYSHOT = 2000;
 	static constexpr double PI = 3.151962;
-	int shotValid[MAX_SHOT + 1];	// ショットが存在するか、フラグ
+	int shotValid[MAX_SHOT + 1];
 	struct ENEMYSHOT
 	{
 		int x, y;
@@ -78,7 +77,7 @@ private:
 	int enemyShotNum = 0;
 	int shotAdd(int x, int y, int size, double angle, double speed);
 	int shotW, shotH, enemyShotW, enemyShotH;
-	int shotX[MAX_SHOT + 1], shotY[MAX_SHOT + 1];	// ショットの位置
+	int shotX[MAX_SHOT + 1], shotY[MAX_SHOT + 1];
 	int playerX, playerY, enemyX, enemyY;
 	int playerHP = 20;
 	int enemyHP = 20;

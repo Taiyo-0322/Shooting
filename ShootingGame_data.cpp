@@ -2,7 +2,6 @@
 
 void Title::fontHandle()
 {
-	//ì¬‚µ‚½ƒf[ƒ^‚Ì¯•Ê”Ô†‚ğ•Ï”FontHandle‚É•Û‘¶‚·‚é
 	FontHandle = CreateFontToHandle(NULL, 500, 50);
 	FontHandle2 = CreateFontToHandle(NULL, 500, 50);
 	FontHandle3 = CreateFontToHandle(NULL, 500, 50);
@@ -10,15 +9,13 @@ void Title::fontHandle()
 
 void Title::drawHandle()
 {
-	//ì¬‚µ‚½ƒtƒHƒ“ƒg‚Å‰æ–Êã‚É•¶š—ñ‚ğ•`‰æ‚·‚é
-	DrawStringToHandle(800, 500, "ƒVƒ…[ƒeƒBƒ“ƒO", GetColor(255, 255, 255), FontHandle);
-	DrawStringToHandle(1800, 1200, "ƒQ[ƒ€", GetColor(255, 255, 255), FontHandle2);
-	DrawStringToHandle(1500, 2500, "‚k‚`‚c‚x ?", GetColor(255, 255, 255), FontHandle3);
+	DrawStringToHandle(800, 500, "ã‚·ãƒ¥ãƒ¼ãƒ†ã‚£ãƒ³ã‚°", GetColor(255, 255, 255), FontHandle);
+	DrawStringToHandle(1800, 1200, "ã‚²ãƒ¼ãƒ ", GetColor(255, 255, 255), FontHandle2);
+	DrawStringToHandle(1500, 2500, "ï¼¬ï¼¡ï¼¤ï¼¹ ?", GetColor(255, 255, 255), FontHandle3);
 }
 
 void Title::deleteHandle()
 {
-	//ì¬‚µ‚½ƒtƒHƒ“ƒgƒf[ƒ^íœ
 	DeleteFontToHandle(FontHandle);
 	DeleteFontToHandle(FontHandle2);
 	DeleteFontToHandle(FontHandle3);
@@ -33,8 +30,8 @@ void Player::playerKey(int key)
 {
 	if (key & PAD_INPUT_UP) playerY -= 50;
 	if (key & PAD_INPUT_DOWN) playerY += 50;
-	if (key & PAD_INPUT_RIGHT) playerX += 50; // ‰E‚ğ‰Ÿ‚µ‚Ä‚¢‚½‚ç‰E‚Éi‚Ş
-	if (key & PAD_INPUT_LEFT) playerX -= 50;	// ¶‚ğ‰Ÿ‚µ‚Ä‚¢‚½‚ç¶‚Éi‚Ş
+	if (key & PAD_INPUT_RIGHT) playerX += 50;
+	if (key & PAD_INPUT_LEFT) playerX -= 50;
 }
 
 void Player::playerDraw()
@@ -69,7 +66,6 @@ void Enemy::enemyDraw(int enemymuki)
 	enGraph();
 	if (enemymuki == 1) enemyX += 30;
 
-	// lŠpŒN‚ª‰æ–Ê‰E’[‚©‚ç‚Å‚»‚¤‚É‚È‚Á‚Ä‚¢‚½‚ç‰æ–Ê“à‚ÌÀ•W‚É–ß‚µ‚Ä‚ ‚°AˆÚ“®‚·‚é•ûŒü‚à”½“]‚·‚é
 	if (enemyX > 4500)
 	{
 		enemyX = 0;
@@ -155,32 +151,24 @@ int Shot::shotAdd(int x, int y, int size, double angle, double speed)
 {
 	int i;
 
-	// g‚í‚ê‚Ä‚¢‚È‚¢ƒVƒ‡ƒbƒg‚ğŒŸõ
 	for (i = 0; i < MAX_ENEMYSHOT; ++i)
 		if (enemyShot[i].validFlag == FALSE) break;
 	if (i == MAX_ENEMYSHOT) return -1;
 
-	// V‚µ‚¢ƒVƒ‡ƒbƒg‚Ìƒf[ƒ^‚ğ‰Šú‰»
 	{
-		// À•WƒZƒbƒg
 		enemyShot[i].x = x;
 		enemyShot[i].y = y;
 
-		// ƒTƒCƒYƒZƒbƒg
 		enemyShot[i].size = size;
 
-		// ”ò‚ñ‚Ås‚­•ûŒü‚ÆƒXƒs[ƒh‚©‚çA‚w²•ûŒü‚Ö‚ÌˆÚ“®‘¬“x‚Æ‚x²•ûŒü‚Ö‚ÌˆÚ“®‘¬“x‚ğ“¾‚é
 		enemyShot[i].sx = (int)(cos(angle) * speed);
 		enemyShot[i].sy = (int)(sin(angle) * speed);
 
-		// ƒVƒ‡ƒbƒgƒf[ƒ^‚Ì—LŒøƒtƒ‰ƒO‚ğ—§‚Ä‚é
 		enemyShot[i].validFlag = TRUE;
 
-		// ƒVƒ‡ƒbƒg‚Ì”‚ğ‘‚â‚·
 		++enemyShotNum;
 	}
 
-	// I—¹
 	return 0;
 }
 
@@ -192,15 +180,12 @@ int Shot::shotType1()
 	enemyY = m_enemy->getEnemyY();
 	int i;
 
-	// ƒJƒEƒ“ƒ^‚ª‚S‚O‚É‚È‚Á‚½‚çƒVƒ‡ƒbƒg‚·‚é
 	if (enemyCounter == 40)
 	{
 		double angle, d;
 
-		// “G‚©‚çŒ©‚½©‹@‚Ö‚Ì•ûŒü‚ğæ“¾
 		angle = atan2((double)(playerY - enemyY), (double)(playerX - enemyX));
 
-		// ‚R‚v‚`‚xƒVƒ‡ƒbƒgˆ—
 		d = angle - (PI / 3) / 2;
 		for (i = 0; i < 3; ++i)
 		{
@@ -208,16 +193,13 @@ int Shot::shotType1()
 			d += (PI / 3) / 2;
 		}
 
-		// ƒJƒEƒ“ƒ^‚ğ‰Šú‰»
 		enemyCounter = 0;
 	}
 	else
 	{
-		// ƒJƒEƒ“ƒ^‚ğƒCƒ“ƒNƒŠƒƒ“ƒg
 		++enemyCounter;
 	}
 
-	// I—¹
 	return 0;
 }
 
@@ -227,17 +209,13 @@ int Shot::shotType2()
 	playerY = m_player->getPlayerY();
 	enemyX = m_enemy->getEnemyX();
 	enemyY = m_enemy->getEnemyY();
-	// int i;
 
-	// ƒJƒEƒ“ƒ^‚ª‚P‚O‚É‚È‚Á‚½‚çƒVƒ‡ƒbƒg‚·‚é
 	if (enemyCounter == 10)
 	{
 		double angle, d;
 
-		// “G‚©‚çŒ©‚½©‹@‚Ö‚Ì•ûŒü‚ğæ“¾
 		angle = atan2((double)(playerY - enemyY), (double)(playerX - enemyX));
 
-		// ƒƒCƒhƒVƒ‡ƒbƒgˆ—A­‚µ‚¸‚ÂŠp“x‚ğ•Ï‚¦‚Äˆêü•ªƒVƒ‡ƒbƒg
 		d = angle - PI;
 		for (int i = 0; i < 20; ++i)
 		{
@@ -245,16 +223,13 @@ int Shot::shotType2()
 			d += 2 * PI / 20;
 		}
 
-		// ƒJƒEƒ“ƒ^‚ğ‰Šú‰»
 		enemyCounter = 0;
 	}
 	else
 	{
-		// ƒJƒEƒ“ƒ^‚ğƒCƒ“ƒNƒŠƒƒ“ƒg
 		++enemyCounter;
 	}
 
-	// I—¹
 	return 0;
 }
 
@@ -265,36 +240,27 @@ int Shot::shotType3()
 	enemyX = m_enemy->getEnemyX();
 	enemyY = m_enemy->getEnemyY();
 
-	// ƒJƒEƒ“ƒ^‚Q‚Ì’l‚É‚æ‚Á‚Äˆ—‚ğ•ªŠò
 	switch (enemyCounter2)
 	{
 	case 0:
-		// ‘Ò‚¿ˆ—
-
-		// ƒJƒEƒ“ƒ^‚ğƒCƒ“ƒNƒŠƒƒ“ƒg
 		++enemyCounter;
 
-		// ƒJƒEƒ“ƒ^‚ª‚U‚O‚É‚È‚Á‚½‚çƒJƒEƒ“ƒ^‚Q‚Ì’l‚ğ‘‚â‚µ‚ÄAƒVƒ‡ƒbƒgˆ—‚ÉˆÚ‚é
 		if (enemyCounter > 60)
 		{
 			++enemyCounter2;
 			enemyCounter = 0;
 
-			// ‚±‚Ì‚Æ‚«‚Ì©‹@‚Ö‚Ì•ûŒü‚ğ•Û‘¶
+			// ã“ã®ã¨ãã®è‡ªæ©Ÿã¸ã®æ–¹å‘ã‚’ä¿å­˜
 			enemyAngle = atan2((double)(playerY - enemyY), (double)(playerX - enemyX));
 		}
 		break;
 
 	case 1:
-		// ƒVƒ‡ƒbƒgˆ—
-
-		// ƒJƒEƒ“ƒ^‚ª‚T‚Ì”{”‚Ì‚Ì‚İƒVƒ‡ƒbƒg‚·‚é
 		if (enemyCounter % 5 == 0)
 		{
 			shotAdd(enemyX, enemyY, 4, enemyAngle, 30 + enemyCounter / 15);
 		}
 
-		// ƒJƒEƒ“ƒ^‚ğƒCƒ“ƒNƒŠƒƒ“ƒgAƒJƒEƒ“ƒg‚ª‚T‚O‚É‚È‚Á‚½‚ç‘Ò‚¿‚É–ß‚é
 		++enemyCounter;
 		if (enemyCounter == 50)
 		{
@@ -304,7 +270,6 @@ int Shot::shotType3()
 		break;
 	}
 
-	// I—¹
 	return 0;
 }
 
@@ -315,42 +280,30 @@ int Shot::shotType4()
 	enemyX = m_enemy->getEnemyX();
 	enemyY = m_enemy->getEnemyY();
 
-	// ƒJƒEƒ“ƒ^‚Q‚Ì’l‚É‚æ‚Á‚Äˆ—‚ğ•ªŠò
 	switch (enemyCounter2)
 	{
 	case 0:
-		// ‘Ò‚¿ˆ—
-
-		// ƒJƒEƒ“ƒ^‚ğƒCƒ“ƒNƒŠƒƒ“ƒg
 		++enemyCounter;
 
-		// ƒJƒEƒ“ƒ^‚ª‚U‚O‚É‚È‚Á‚½‚çƒJƒEƒ“ƒ^‚Q‚Ì’l‚ğ‘‚â‚µ‚ÄAƒVƒ‡ƒbƒgˆ—‚ÉˆÚ‚é
 		if (enemyCounter > 60)
 		{
 			++enemyCounter2;
 			enemyCounter = 0;
 
-			// ‚±‚Ì‚Æ‚«‚Ì©‹@‚Ö‚Ì•ûŒü‚ğ•Û‘¶
 			enemyAngle = atan2((double)(playerY - enemyY), (double)(playerX - enemyX));
 		}
 		break;
 
 	case 1:
-		//ƒVƒ‡ƒbƒgˆ—
-
-		// ƒJƒEƒ“ƒ^‚ª‚Q‚Ì”{”‚Ì‚Ì‚İƒVƒ‡ƒbƒg‚·‚é
 		if (enemyCounter % 2 == 0)
 		{
 			double angle;
 
-			// ”ò‚Î‚·•ûŒü‚É‚Ô‚ê‚ğ‚Â‚¯‚é
 			angle = enemyAngle + (PI / 3600 * (GetRand(800) - 400));
 
-			// ƒVƒ‡ƒbƒg
 			shotAdd(enemyX, enemyY, 5, angle, 30);
 		}
 
-		// ƒJƒEƒ“ƒ^‚ğƒCƒ“ƒNƒŠƒƒ“ƒgAƒJƒEƒ“ƒg‚ª‚T‚O‚É‚È‚Á‚½‚ç‘Ò‚¿‚É–ß‚é
 		++enemyCounter;
 		if (enemyCounter == 50)
 		{
@@ -360,7 +313,7 @@ int Shot::shotType4()
 		break;
 	}
 
-	// I—¹
+	// çµ‚äº†
 	return 0;
 }
 
@@ -373,19 +326,15 @@ int Shot::shotType5()
 
 	int i;
 
-	// ƒJƒEƒ“ƒ^‚ª‚Q‚É‚È‚Á‚½‚çƒVƒ‡ƒbƒgˆ—‚ğs‚¤
 	if (enemyCounter == 2)
 	{
-		// ƒVƒ‡ƒbƒg‚Ì•ûŒü‚ğ•ÏX
 		enemyAngle += 0.2;
 
-		// ‘¬“x‚Ìˆá‚¤ŒÜ‚Â‚ÌƒVƒ‡ƒbƒg‚ğ”­Ë
 		for (i = 0; i < 5; ++i)
 		{
 			shotAdd(enemyX, enemyY, 6, enemyAngle, 30 + (i * 8000));
 		}
 
-		// ƒJƒEƒ“ƒ^‚ğ‰Šú‰»‚·‚é
 		enemyCounter = 0;
 	}
 	else
@@ -393,13 +342,11 @@ int Shot::shotType5()
 		++enemyCounter;
 	}
 
-	// I—¹
 	return 0;
 }
 
 void Shot::shotInit()
 {
-	// ƒVƒ‡ƒbƒg‚Ì‘¶İ‚ğ‰Šú‰»‚·‚é
 	for (int i = 0; i < MAX_SHOT; ++i)
 		shotValid[i] = 0;
 }
@@ -408,16 +355,12 @@ void Shot::playerShot1(int Key)
 {
 	int key = Key;
 	m_player->playerKey(key);
-	// ƒVƒ‡ƒbƒg‚ÌˆÚ“®ˆ—
 	for (int j = 0; j < MAX_SHOT; ++j)
 	{
-		// ƒVƒ‡ƒbƒgƒf[ƒ^‚ª–³Œø‚¾‚Á‚½‚çƒXƒLƒbƒv
 		if (shotValid[j] == 0) continue;
 
-		// ˆÊ’u‚ğã‚É‚¸‚ç‚·
 		shotY[j] -= 80;
 
-		// ‰æ–ÊŠO‚Éo‚Ä‚¢‚½‚çƒVƒ‡ƒbƒgƒf[ƒ^‚ğ–³Œø‚É‚·‚é
 		if (shotY[j] < -32) shotValid[j] = 0;
 	}
 }
@@ -427,20 +370,16 @@ void Shot::playerShot2()
 	m_player->getPlayerX();
 	m_player->getPlayerY();
 	int j;
-	// g‚í‚ê‚Ä‚¢‚È‚¢ƒVƒ‡ƒbƒgƒf[ƒ^‚ğ’T‚·
 	for (j = 0; j < MAX_SHOT; ++j)
 	{
 		if (shotValid[j] == 0) break;
 	}
 
-	// ‚à‚µg‚í‚ê‚Ä‚¢‚È‚¢ƒVƒ‡ƒbƒgƒf[ƒ^‚ª‚ ‚Á‚½‚çƒVƒ‡ƒbƒg‚ğo‚·
 	if (j != MAX_SHOT)
 	{
-		// ƒVƒ‡ƒbƒg‚ÌˆÊ’u‚ğİ’è
 		shotX[j] = playerX + 455;
 		shotY[j] = playerY;
 
-		// ƒVƒ‡ƒbƒgƒf[ƒ^‚ğg—p’†‚ÉƒZƒbƒg
 		shotValid[j] = 1;
 	}
 }
@@ -450,34 +389,26 @@ void Shot::enemyShooting(int playerW, int playerH)
 	m_player->getPlayerX();
 	m_player->getPlayerY();
 
-	// ’e‚Ìˆ—
 	int i, con, num;
-	// ’e‚Ì”‚¾‚¯ˆÚ“®ˆ—‚ğŒJ‚è•Ô‚·
 	con = 0;
 	num = enemyShotNum;
 	for (i = 0; i < MAX_ENEMYSHOT; ++i)
 	{
-		// ’e‚Ìƒf[ƒ^‚ª—LŒø‚Èê‡‚Íˆ—
 		if (enemyShot[i].validFlag == TRUE)
 		{
-			// ˆÚ“®ˆ—
 			enemyShot[i].x += enemyShot[i].sx;
 			enemyShot[i].y += enemyShot[i].sy;
 
-			// ‰æ–ÊŠO‚Éo‚½‚ç’eî•ñ‚ğÁ‹‚·‚é
 			if (((enemyShot[i].x) < -2000) ||
 				((enemyShot[i].x) > 6600) ||
 				((enemyShot[i].y) < -2000) ||
 				((enemyShot[i].y) > 5000))
 			{
-				// ƒf[ƒ^‚Ì—LŒøƒtƒ‰ƒO‚ğ“|‚·
 				enemyShot[i].validFlag = FALSE;
 
-				// ’e‚Ì”‚ğŒ¸‚ç‚·
 				--enemyShotNum;
 			}
 
-			// ’e‚Ì•`‰æ
 			{
 				int x, y;
 
@@ -485,32 +416,29 @@ void Shot::enemyShooting(int playerW, int playerH)
 				y = enemyShot[i].y;
 
 				DrawCircle(x + 100, y + 300, 50, GetColor(255, 0, 0), TRUE);
-				// ’e‚ÌƒOƒ‰ƒtƒBƒbƒN‚ÌƒTƒCƒY‚ğ‚¦‚é
+				
 				GetGraphSize(DrawCircle(x + 100, y + 300, 50, GetColor(255, 0, 0), TRUE), &enemyShotW, &enemyShotH);
-				// Player‚Æ‚Ì“–‚½‚è”»’è
+				
 				if (((enemyShot[i].x > playerX && enemyShot[i].x < playerX + playerW) ||
 					(playerX > enemyShot[i].x && playerX < enemyShot[i].x + enemyShotW)) &&
 					((enemyShot[i].y > playerY && enemyShot[i].y < playerY + playerH) ||
 						(playerY > enemyShot[i].y && playerY < enemyShot[i].y + enemyShotH)))
 				{
-					// ÚG‚µ‚Ä‚¢‚éê‡‚Í“–‚½‚Á‚½’e‚Ì‘¶İ‚ğÁ‚·
 					enemyShot[i].validFlag = FALSE;
 					--playerHP;
 					if (playerHP <= 0)
 					{
 						int FontHandle4;
 						FontHandle4 = CreateFontToHandle(NULL, 500, 50);
-						DrawStringToHandle(1500, 1200, "ƒQ[ƒ€ƒI[ƒo[", GetColor(255, 255, 255), FontHandle4);
+						DrawStringToHandle(1500, 1200, "ã‚²ãƒ¼ãƒ ã‚ªãƒ¼ãƒãƒ¼", GetColor(255, 255, 255), FontHandle4);
 						WaitKey();
 						DxLib_End();
 					}
 				}
 			}
 
-			// ˆ—‚µ‚½’e‚Ì”‚ğƒCƒ“ƒNƒŠƒƒ“ƒg
 			++con;
 
-			// ˆ—‚µ‚½’e‚Ì”‚ªA‘¶İ‚µ‚Ä‚¢‚é’e‚Ì”‚Æ“¯‚¶‚É‚È‚Á‚½ê‡‚Íƒ‹[ƒv‚ğ”²‚¯‚é
 			if (num == con) break;
 		}
 	}
@@ -522,31 +450,26 @@ void Shot::shooting(int enemyW, int enemyH)
 	m_enemy->getEnemyX();
 	m_enemy->getEnemyY();
 
-	// ƒVƒ‡ƒbƒg‚ğ•`‰æ‚·‚é
 	for (int j = 0; j < MAX_SHOT; ++j)
 	{
-		// ƒVƒ‡ƒbƒgƒf[ƒ^‚ª—LŒø‚È‚Ì‚İ•`‰æ
 		if (shotValid[j] == 1)
 		{
 			DrawBox(shotX[j] - 350, shotY[j], shotX[j] - 250, shotY[j] + 160,
 				GetColor(0, 0, 255), TRUE);
-			// ’e‚ÌƒOƒ‰ƒtƒBƒbƒN‚ÌƒTƒCƒY‚ğ‚¦‚é
 			GetGraphSize(DrawBox(shotX[j] - 350, shotY[j], shotX[j] - 250, shotY[j] + 160,
 				GetColor(0, 0, 255), TRUE), &shotW, &shotH);
-			// lŠpŒN‚Æ‚Ì“–‚½‚è”»’è
 			if (((shotX[j] > enemyX && shotX[j] < enemyX + enemyW) ||
 				(enemyX > shotX[j] && enemyX < shotX[j] + shotW)) &&
 				((shotY[j] > enemyY && shotY[j] < enemyY + enemyH) ||
 					(enemyY > shotY[j] && enemyY < shotY[j] + shotH)))
 			{
-				// ÚG‚µ‚Ä‚¢‚éê‡‚Í“–‚½‚Á‚½’e‚Ì‘¶İ‚ğÁ‚·
 				shotValid[j] = 0;
 				--enemyHP;
 				if (enemyHP <= 0)
 				{
 					int FontHandle5;
 					FontHandle5 = CreateFontToHandle(NULL, 500, 50);
-					DrawStringToHandle(1800, 1200, "ƒNƒŠƒA", GetColor(255, 255, 255), FontHandle5);
+					DrawStringToHandle(1800, 1200, "ã‚¯ãƒªã‚¢", GetColor(255, 255, 255), FontHandle5);
 					WaitKey();
 					DxLib_End();
 				}
